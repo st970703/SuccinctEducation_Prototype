@@ -53,7 +53,7 @@
             <div class="col-sm-7">
                 <div class="panel panel-primary">
                     <div class="panel-heading">
-                        <span class="glyphicon glyphicon-pencil"></span> Question 1
+                        <span class="glyphicon glyphicon-question-sign"></span> Question 1
                     </div>
                     <div class="panel-body">
                         <p> What actions should Jimmy take to reduce the pain in his leg? </p>
@@ -67,7 +67,7 @@
                         <span class="glyphicon glyphicon-comment "></span> Discussion
                     </div>
                     <div class="panel-body ">
-                        <ul class="chat ">
+                        <ul class="chat" id="chatList">
                             <li class="left clearfix "><span class="chat-img pull-left ">
                             <img src="http://placehold.it/50/55C1E7/fff&text=U " alt="User Avatar " class="img-circle " />
                         </span>
@@ -85,7 +85,7 @@
                                 <div class="chat-body clearfix ">
                                     <div class="header ">
                                         <small class=" text-muted "><span class="glyphicon glyphicon-time "></span>13 mins ago</small>
-                                        <strong class="pull-right primary-font ">Bhaumik Patel</strong>
+                                        <strong class="pull-right primary-font ">Me</strong>
                                     </div>
                                     <p> How many options should we condsider? </p>
                                 </div>
@@ -101,14 +101,26 @@
                                     <p> It depends. "Amo Ewan "</p>
                                 </div>
                             </li>
+                            </li>
+                            <li class="right clearfix "><span class="chat-img pull-right ">
+                            <img src="http://placehold.it/50/FA6F57/fff&text=ME " alt="User Avatar " class="img-circle " />
+                        </span>
+                                <div class="chat-body clearfix ">
+                                    <div class="header ">
+                                        <small class=" text-muted "><span class="glyphicon glyphicon-time "></span>Just now</small>
+                                        <strong class="pull-right primary-font ">Me</strong>
+                                    </div>
+                                    <p id="myNewComment"> Typing... </p>
+                                </div>
+                            </li>
                         </ul>
                     </div>
                     <div class="panel-footer ">
+                        <label for="comment">My Comment:</label>
                         <div class="input-group ">
-                            <input id="btn-input " type="text " class="form-control input-sm " placeholder="Type your comments here... " />
+                            <input id="comment-input" type="text " class="form-control input-sm " placeholder="Type your comments here... " />
                             <span class="input-group-btn ">
-                            <button class="btn btn-warning btn-sm " id="btn-chat ">
-                                Submit</button>
+                            <button class="btn btn-warning btn-sm " id="btn-chat" onclick="submitComment()">Submit</button>
                         </span>
                         </div>
                     </div>
@@ -120,27 +132,34 @@
                     </div>
                     <div class="panel-body ">
                         <div class="input-group-vertical ">
-                            <input id="btn-input-ans " type="text " class="form-control input-sm " placeholder="Type your answer here... " />
-                            <span class="input-group-btn ">
+                            <!--input id="btn-input-ans " type="text " class="form-control" placeholder="Type your answer here... " /-->
+                            <textarea class="form-control" rows="7" id="ansTextArea" placeholder="Type your answer here... "></textarea>
+                            <!--span class="input-group-btn ">
                             <button class="btn btn-warning btn-sm " id="btn-chat ">
                                 Submit</button>
-                        </span>
+                        </span-->
+                        </div>
+                    </div>
+                    <div class="panel-footer ">
+                        <div align="right">
+                            <button class="btn btn-warning btn-sm " id="ans-btn" onclick="ansSubmitted(); ">Submit</button>
                         </div>
                     </div>
                 </div>
 
             </div>
             <div class="col-sm-3 ">
-                <div id="case_area ">
-                    <h2>Case 1</h2>
-                    <p>
-                        Jimmy just finished his cross country run. Unfortunately, he felt severe sore in his leg. This can possibly be caused by lactid acid build up.
-                    </p>
-                    </br>
-                    <img id="cross-country-running" src="..\img\cross-country-running.jpg " class=".img-rounded " alt="Case Photo " />
+                <div id="casePanel" class="panel panel-primary ">
+                    <div class="panel-heading ">
+                        <span class="glyphicon glyphicon-briefcase"></span> Case 1
+                    </div>
+                    <div class="panel-body ">
+                        <p> Jimmy just finished his cross country run. Unfortunately, he felt severe sore in his leg. This can possibly be caused by lactid acid build up. </p>
+                        </br>
+                        <img id="cross-country-running" src="..\img\cross-country-running.jpg " class=".img-rounded " alt="Case Photo " />
+                    </div>
                 </div>
-
-
+            </div>
 
 </body>
 
