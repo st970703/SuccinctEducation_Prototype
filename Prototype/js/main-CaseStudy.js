@@ -7,3 +7,7 @@ function search() {
     alert("Searching...\n" + searchText);
     document.getElementById("searchText").value = "";
 }
+
+$(document).ready(function() {
+    $('[data-toggle="tooltip"]').tooltip();
+});
