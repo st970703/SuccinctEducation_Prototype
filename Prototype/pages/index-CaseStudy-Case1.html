@@ -1,0 +1,132 @@
+<html lang="en">
+
+<head>
+    <title>Case Study</title>
+    <meta charset="utf-8">
+    <meta name="description" content="A basic template for starting an HTML page">
+    <meta name="author" content="Mike Lee">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+
+    <link rel="stylesheet" href="../bootstrap-3.3.7-dist/css/bootstrap.min.css" />
+    <script type='text/javascript' src="../js/jquery-3.2.1.min.js"></script>
+    <script type='text/javascript' src="../js/main-CaseStudy-subscreen.js"></script>
+    <link rel="stylesheet" href="../bootstrap-3.3.7-dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="../css/style-CaseStudy-subscreen.css">
+    <link rel="stylesheet" href="../css/style-CaseStudy.css">
+    </script>
+</head>
+
+<body>
+    <header style="padding: 25px; padding-top: 20px;">
+        <nav class="navbar navbar-inverse">
+            <div class="container-fluid">
+                <div class="navbar-header">
+                    <a class="navbar-brand" href="#">Succinct Education <span class="glyphicon glyphicon-registration-mark"></span></a>
+                </div>
+                <ul class="nav navbar-nav">
+                    <li><a href="../index-CaseStudy.html"><span class="glyphicon glyphicon-arrow-left"></span> Back</a></li>
+                    <li><a href="#"><span class="glyphicon glyphicon-home"></span> Home</a></li>
+                    <li><a href="../index-CaseStudy.html"><span class="glyphicon glyphicon-book"></span> Case Study</a></li>
+                    <li><a class="disabled">Case 1</a></li>
+                </ul>
+                <p class="navbar-text navbar-right" style="padding-right: 20px;">
+                    <a href="#" class="navbar-link" onclick='return signOut()'><span class="glyphicon glyphicon-user"></span> <u>Sign out</u></a>
+                </p>
+            </div>
+        </nav>
+    </header>
+
+    <section id='pillsAndCards' style="padding: 25px; padding-top: 0px;">
+        <div class="row">
+            <!--div class="col-md-2 bhoechie-tab-container"-->
+            <div class="col-md-2 bhoechie-tab-menu">
+                <div class="list-group bg-color-primary">
+                    <a href="#" class="list-group-item active text-center">Question 1</a>
+                    <a href="#" class="list-group-item text-center">Question 2</a>
+                    <a href="#" class="list-group-item text-center">Question 3</a>
+                    <a href="#" class="list-group-item text-center">Question 4</a>
+                    <a href="#" class="list-group-item text-center">Question 5</a>
+                    <a href="#" class="list-group-item text-center">Question 6</a>
+                    <a href="#" class="list-group-item text-center">Question 7</a>
+                </div>
+            </div>
+
+            <div class="col-sm-7">
+                <div id="response_area">
+                    <h2>Question 1</h2>
+                    <p>
+                        What actions should Jimmy take to reduce the pain in his leg?
+                    </p>
+                </div>
+
+                <div class="panel panel-primary">
+                    <div class="panel-heading">
+                        <span class="glyphicon glyphicon-comment"></span> Discussion
+                    </div>
+                    <div class="panel-body">
+                        <ul class="chat">
+                            <li class="left clearfix"><span class="chat-img pull-left">
+                            <img src="http://placehold.it/50/55C1E7/fff&text=U" alt="User Avatar" class="img-circle" />
+                        </span>
+                                <div class="chat-body clearfix">
+                                    <div class="header">
+                                        <strong class="primary-font">Darius Au</strong> <small class="pull-right text-muted">
+                                        <span class="glyphicon glyphicon-time"></span>12 mins ago</small>
+                                    </div>
+                                    <p> This question is hard. Let me google it. </p>
+                                </div>
+                            </li>
+                            <li class="right clearfix"><span class="chat-img pull-right">
+                            <img src="http://placehold.it/50/FA6F57/fff&text=ME" alt="User Avatar" class="img-circle" />
+                        </span>
+                                <div class="chat-body clearfix">
+                                    <div class="header">
+                                        <small class=" text-muted"><span class="glyphicon glyphicon-time"></span>13 mins ago</small>
+                                        <strong class="pull-right primary-font">Bhaumik Patel</strong>
+                                    </div>
+                                    <p> How many options should we condsider? </p>
+                                </div>
+                            </li>
+                            <li class="left clearfix"><span class="chat-img pull-left">
+                            <img src="http://placehold.it/50/55C1E7/fff&text=U" alt="User Avatar" class="img-circle" />
+                        </span>
+                                <div class="chat-body clearfix">
+                                    <div class="header">
+                                        <strong class="primary-font">Darius Au</strong> <small class="pull-right text-muted">
+                                        <span class="glyphicon glyphicon-time"></span>14 mins ago</small>
+                                    </div>
+                                    <p> It depends. "Amo Ewan"</p>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="panel-footer">
+                        <div class="input-group">
+                            <input id="btn-input" type="text" class="form-control input-sm" placeholder="Type your comments here..." />
+                            <span class="input-group-btn">
+                            <button class="btn btn-warning btn-sm" id="btn-chat">
+                                Submit</button>
+                        </span>
+                        </div>
+                    </div>
+                </div>
+
+                <div id="answer_area">
+                    <h2>My Answer:</h2>
+
+                </div>
+
+            </div>
+            <div class="col-sm-3">
+                <div id="response_area">
+                    <h2>Case 1</h2>
+                    <p>
+                        Jimmy just finished his cross country run. Unfortunately, he felt severy sore in his leg. This can possibly be caused by lactid acid build up.
+                    </p>
+                </div>
+
+
+
+</body>
+
+</html>
