@@ -46,14 +46,14 @@
                     <a class="list-group-item text-center" data-toggle="tooltip" data-placement="top" title="This question is under implementation.">Question 4</a>
                     <a class="list-group-item text-center" data-toggle="tooltip" data-placement="top" title="This question is under implementation.">Question 5</a>
                     <a class="list-group-item text-center" data-toggle="tooltip" data-placement="top" title="This question is under implementation.">Question 6</a>
-                    <a class="list-group-item text-center" data-toggle="tooltip" data-placement="top" title="This question is under implementation." onclick="newQuestion();">Question 7</a>
+                    <a class="list-group-item text-center" data-toggle="tooltip" data-placement="top" title="This question is under implementation.">Question 7</a>
                 </div>
             </div>
 
             <div class="col-sm-7">
                 <div class="panel panel-primary">
                     <div class="panel-heading">
-                        <span class="glyphicon glyphicon-question-sign"></span> Question 1
+                        <h4><span class="glyphicon glyphicon-question-sign"></span><b> Question 1</b></h4>
                     </div>
                     <div class="panel-body">
                         <p id="question_p"> What actions should Jimmy take to reduce the pain in his leg? </p>
@@ -64,7 +64,7 @@
 
                 <div class="panel panel-primary ">
                     <div class="panel-heading ">
-                        <span class="glyphicon glyphicon-comment "></span> Discussion
+                        <span class="glyphicon glyphicon-comment "></span><b> Discussion</b>
                     </div>
                     <div class="panel-body ">
                         <ul class="chat" id="chatList">
@@ -120,15 +120,15 @@
                         <div class="input-group ">
                             <input id="comment-input" type="text " class="form-control input-sm " placeholder="Type your comments here... " />
                             <span class="input-group-btn ">
-                            <button class="btn btn-warning btn-sm " id="btn-chat" onclick="submitComment()" style="background-color:darkorange ">Submit</button>
-                        </span>
+                            <button class="btn btn-warning btn-sm " id="btn-chat" onclick="submitComment()" style="background-color:darkorange "><span class="glyphicon glyphicon-share"></span> Submit</button>
+                            </span>
                         </div>
                     </div>
                 </div>
 
                 <div class="panel panel-primary ">
                     <div class="panel-heading ">
-                        <span class="glyphicon glyphicon-pencil "></span> My Answer
+                        <span class="glyphicon glyphicon-pencil "></span><b> My Answer</b>
                     </div>
                     <div class="panel-body ">
                         <div class="input-group-vertical ">
@@ -142,7 +142,7 @@
                     </div>
                     <div class="panel-footer ">
                         <div align="right">
-                            <button class="btn btn-warning btn-sm " id="ans-btn" style="background-color:darkorange " onclick="ansSubmitted(); ">Submit</button>
+                            <button class="btn btn-warning btn-sm " id="ans-btn" style="background-color:darkorange " onclick="ansSubmitted(); "><span class="glyphicon glyphicon-share"></span> Submit</button>
                         </div>
                     </div>
                 </div>
@@ -151,7 +151,7 @@
             <div class="col-sm-3 ">
                 <div id="casePanel" class="panel panel-primary ">
                     <div class="panel-heading ">
-                        <span class="glyphicon glyphicon-briefcase"></span> Case 1
+                        <h4><span class="glyphicon glyphicon-briefcase"></span> Case 1</h4>
                     </div>
                     <div class="panel-body ">
                         <p> Jimmy just finished his cross country run. Unfortunately, he felt severe sore in his leg. This can possibly be caused by lactid acid build up. </p>
