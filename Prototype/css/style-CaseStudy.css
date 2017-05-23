@@ -12,6 +12,11 @@
     /* Enable scrolling if the sidenav has too much content */
 }
 
+a.disabled {
+    pointer-events: none;
+    cursor: default;
+}
+
 .list-group-item {
     border: 0.1px solid #032154;
 }

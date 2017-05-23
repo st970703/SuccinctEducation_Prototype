@@ -3,9 +3,9 @@ function signOut() {
 }
 
 function search() {
-    var searchText = document.getElementById("searchText").value;
+    var searchText = document.getElementById("searchText ").value;
     alert("Searching...\n" + searchText);
-    document.getElementById("searchText").value = "";
+    document.getElementById("searchText ").value = "";
 }
 
 $(document).ready(function() {
