@@ -12,6 +12,10 @@
     /* Enable scrolling if the sidenav has too much content */
 }
 
+.navbar-header {
+    display: inline;
+}
+
 a.disabled {
     pointer-events: none;
     cursor: default;
