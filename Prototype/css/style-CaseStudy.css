@@ -23,8 +23,13 @@ a.disabled {
 
 .navbar-inverse .navbar-brand {
     font-family: Brush Script Std, Brush Script MT, cursive;
-    font-size: 175%;
+    font-size: 200%;
+    font-weight: bold;
     color: white;
+}
+
+.glyphicon-registration-mark {
+    left: -10px;
 }
 
 .navbar-inverse * {

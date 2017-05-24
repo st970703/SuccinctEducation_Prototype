@@ -22,7 +22,8 @@
         <nav class="navbar navbar-inverse">
             <div class="container-fluid">
                 <div class="navbar-header">
-                    <a class="navbar-brand" href="#">Succinct Education <span class="glyphicon glyphicon-registration-mark"></span></a>
+                    <a href="#" class="navbar-brand disabled" data-toggle="tooltip" data-placement="top" title="This will direct to the company website.">Succinct Education </a>
+                    <span class="glyphicon glyphicon-registration-mark" style="padding-top: 10px;"></span>
                 </div>
                 <ul class="nav navbar-nav">
                     <li><a href="index-CaseStudy-Case1.html"><span class="glyphicon glyphicon-arrow-left"></span> Back</a></li>
@@ -30,11 +31,10 @@
                     <li><a href="../index-CaseStudy.html"><span class="glyphicon glyphicon-book"></span> Case Study</a></li>
                     <li><a class="disabled">Case 1</a></li>
                 </ul>
-                <p class="navbar-text navbar-right" style="padding-right: 20px;">
-                    <span class="glyphicon glyphicon-user"></span>
-                    <font> Hey, Mike!</font>
-                    <a href="#" class="navbar-link" onclick='return signOut()'><u> Sign out</u></a>
-                </p>
+                <div class="navbar-text navbar-right" style="padding-right: 20px;">
+                    <p><span class="glyphicon glyphicon-user"></span> Hey, Mike!
+                        <a href="#" class="navbar-link" onclick='return signOut()' style="padding-left: 40px;"><u> Sign out</u></a></p>
+                </div>
             </div>
         </nav>
     </header>

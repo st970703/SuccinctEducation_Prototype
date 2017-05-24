@@ -1,10 +1,11 @@
 submitted = false;
 
 function ansSubmitted() {
-    var ansTextArea = document.getElementById("ansTextArea").value = '';
+    var ansTextArea = document.getElementById("ansTextArea").value;
     if (ansTextArea !== "") {
         alert("Your answer is submitted!");
         submitted = true;
+        document.getElementById("ansTextArea").value = ''
     }
 }
 
