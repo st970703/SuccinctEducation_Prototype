@@ -4,8 +4,10 @@ function signOut() {
 
 function search() {
     var searchText = document.getElementById("searchText ").value;
-    alert("Searching...\n" + searchText);
-    document.getElementById("searchText ").value = "";
+    if (searchText !== "") {
+        alert("Searching...\n" + searchText);
+        document.getElementById("searchText ").value = "";
+    }
 }
 
 $(document).ready(function() {
