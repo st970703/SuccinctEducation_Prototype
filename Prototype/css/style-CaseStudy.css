@@ -21,10 +21,6 @@ a.disabled {
     cursor: default;
 }
 
-.list-group-item {
-    border: 0.1px solid #032154;
-}
-
 .navbar-inverse .navbar-brand {
     font-family: Brush Script Std, Brush Script MT, cursive;
     font-size: 200%;
@@ -47,13 +43,6 @@ a.disabled {
 
 .navbar.navbar-inverse .navbar-nav>li>a {
     color: white;
-}
-
-
-/* mouse over link */
-
-a:hover {
-    color: red;
 }
 
 
