@@ -1,0 +1,101 @@
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Home</title>
+    <meta name="description" content="A basic template for starting an HTML page">
+    <meta name="author" content="A. Student">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+</head>
+
+<body>
+    <header>
+        <h1>Home</h1>
+    </header>
+    <section id='Welcome'>
+        <h2>Welcome</h2>
+    </section>
+    <section id='userIcon'>
+        <img src='../img/user_male.png' height="50">
+        <u><a href=#>Log out</a></u>
+    </section>
+    <section id='tabs'>
+        <div class="tab">
+            <ul>
+                <li><button class="tablinks" onclick="openCity(event, 'London')">Home</button></li>
+                <li><button class="tablinks" onclick="openCity(event, 'Paris')">CaseStudy</button></li>
+                <li><button class="tablinks" onclick="openCity(event, 'Tokyo')">ProblemSolving</button></li>
+            </ul>
+        </div>
+    </section>
+    <section id='progressbars'>
+        <div id="progress1">
+            <div id="bar1" align="right">30%</div>
+            <style>
+                #progress1 {
+                    width: 80%;
+                    background-color: #ddd;
+                }
+                
+                #bar1 {
+                    width: 40%;
+                    height: 30px;
+                    background-color: #4CAF50;
+                }
+            </style>
+        </div>
+        <br>
+        <div id="progress2">
+            <div id="bar2" align="right">60%</div>
+            <style>
+                #progress2 {
+                    width: 80%;
+                    background-color: #ddd;
+                }
+                
+                #bar2 {
+                    width: 60%;
+                    height: 30px;
+                    background-color: #990000;
+                }
+            </style>
+        </div>
+        <br>
+    </section>
+
+    <section id='membersList'>
+        <h2>Memebers</h2>
+        <h3>Edit</h3>
+        <ul>
+            <li><button class="memberBtn">memberBtn</button></li>
+            <li>Luke Fraser, Room 3, Status: Online</li>
+            <li><img src='../img/EmilyJones.png' height="50"></li>
+            <li>Emily Jones, Room 5, Status: Offline</li>
+            <li><img src='../img/LukeFraser.png' height="50"></li>
+            <li>Jack Li, Room 9, Status: Online</li>
+            <li><img src='../img/JackLi.png' height="50"></li>
+            <li>Jill Brown, Room 13, Status: Offline</li>
+            <li><img src='../img/JillBrown.jpg' height="50"></li>
+        </ul>
+    </section>
+    <section id='CaseStudy-subscreen'>
+        <button onclick="location.href='../CaseStudy-subscreen/index-CaseStudy-Subscreen.html'" type="button">
+     index-CaseStudy-Subscreen</button>
+    </section>
+    <section id='ProblemSolving'>
+        <button onclick="location.href='../ProblemSolving/index-ProblemSolving.html'" type="button">
+     ProblemSolving</button>
+    </section>
+    <section id='ProblemSolving-Q'>
+        <button onclick="location.href='../ProblemSolving-Q/index-ProblemSolving-Q.html'" type="button">
+     ProblemSolving-Q</button>
+    </section>
+    <section id='ProblemSolving-Review'>
+        <button onclick="location.href='../ProblemSolving-Review/index-ProblemSolving-Review.html'" type="button">
+     ProblemSolving-Review</button>
+    </section>
+
+
+</body>
+
+</html>
