@@ -1,5 +1,4 @@
-# Education_Website_Prototype_original
-Education_Website_Prototype_original
+# A high fidelity prototype for an education website
 
 To see this high fidelity prototype in action, visit:  
 http://succincteducation.azurewebsites.net/
