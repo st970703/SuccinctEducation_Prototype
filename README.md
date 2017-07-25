@@ -1,5 +1,5 @@
 # Education_Website_Prototype_original
 Education_Website_Prototype_original
 
-To see this high fidelity prototype in action, visit:
+To see this high fidelity prototype in action, visit:  
 http://educationwebsiteprototype.azurewebsites.net/
