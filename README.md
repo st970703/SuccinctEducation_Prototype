@@ -2,4 +2,4 @@
 Education_Website_Prototype_original
 
 To see this high fidelity prototype in action, visit:  
-http://educationwebsiteprototype.azurewebsites.net/
+http://succincteducation.azurewebsites.net/
